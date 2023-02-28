@@ -1,0 +1,95 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32526.322
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{05C684B4-3B7F-4D3E-B390-0DCFFF1590BA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "misc", "misc", "{FC7C50EC-77BF-4CF7-A59C-4D599846612F}"
+	ProjectSection(SolutionItems) = preProject
+		.dockerignore = .dockerignore
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{FF68EC25-D561-46E1-8382-1A8CB1A464E0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{743991C8-B27F-4A53-9623-08102FA4C34A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "api", "api", "{0722D363-AD76-46C9-8A0A-7C61591A0E73}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "client", "client", "{808A04EE-B8DD-48F3-AE13-1DB51724D452}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BigLearning.Presentation", "src\api\BigLearning.Presentation\BigLearning.Presentation.csproj", "{ACA958A9-4CDD-48EE-AE3D-7EAEAD6AC81B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BigLearning.ApplicationCore", "src\api\BigLearning.ApplicationCore\BigLearning.ApplicationCore.csproj", "{70C7DE54-2ED5-48B4-A7F5-4A6BCD2E3FAD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BigLearning.Infrastructure", "src\api\BigLearning.Infrastructure\BigLearning.Infrastructure.csproj", "{8BD467AB-44AC-4A17-BE86-A0B34F41750D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SharedKernel", "src\api\SharedKernel\SharedKernel.csproj", "{F81067B1-BDE9-4219-9E6D-3FADD67F35C2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BigLearning.ApplicationCore.Tests", "tests\Api\BigLearning.ApplicationCore.Tests\BigLearning.ApplicationCore.Tests.csproj", "{C9AB3B1E-D7BC-430B-8A91-A3A445D39029}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BigLearning.Domain", "src\Api\BigLearning.Domain\BigLearning.Domain.csproj", "{C28EC5C4-1933-4B96-8BE8-D8E7E2E0AA34}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Elang.Desktop.UI", "src\client\Elang.Desktop.UI\Elang.Desktop.UI.csproj", "{1EEEFD81-7234-4F55-815B-71145B249B02}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "api", "api", "{730F8C82-DB81-4222-8F79-085606470451}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FF68EC25-D561-46E1-8382-1A8CB1A464E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF68EC25-D561-46E1-8382-1A8CB1A464E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF68EC25-D561-46E1-8382-1A8CB1A464E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF68EC25-D561-46E1-8382-1A8CB1A464E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACA958A9-4CDD-48EE-AE3D-7EAEAD6AC81B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACA958A9-4CDD-48EE-AE3D-7EAEAD6AC81B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACA958A9-4CDD-48EE-AE3D-7EAEAD6AC81B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACA958A9-4CDD-48EE-AE3D-7EAEAD6AC81B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70C7DE54-2ED5-48B4-A7F5-4A6BCD2E3FAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70C7DE54-2ED5-48B4-A7F5-4A6BCD2E3FAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70C7DE54-2ED5-48B4-A7F5-4A6BCD2E3FAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70C7DE54-2ED5-48B4-A7F5-4A6BCD2E3FAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BD467AB-44AC-4A17-BE86-A0B34F41750D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BD467AB-44AC-4A17-BE86-A0B34F41750D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BD467AB-44AC-4A17-BE86-A0B34F41750D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BD467AB-44AC-4A17-BE86-A0B34F41750D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F81067B1-BDE9-4219-9E6D-3FADD67F35C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F81067B1-BDE9-4219-9E6D-3FADD67F35C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F81067B1-BDE9-4219-9E6D-3FADD67F35C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F81067B1-BDE9-4219-9E6D-3FADD67F35C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9AB3B1E-D7BC-430B-8A91-A3A445D39029}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9AB3B1E-D7BC-430B-8A91-A3A445D39029}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9AB3B1E-D7BC-430B-8A91-A3A445D39029}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9AB3B1E-D7BC-430B-8A91-A3A445D39029}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C28EC5C4-1933-4B96-8BE8-D8E7E2E0AA34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C28EC5C4-1933-4B96-8BE8-D8E7E2E0AA34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C28EC5C4-1933-4B96-8BE8-D8E7E2E0AA34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C28EC5C4-1933-4B96-8BE8-D8E7E2E0AA34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1EEEFD81-7234-4F55-815B-71145B249B02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EEEFD81-7234-4F55-815B-71145B249B02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EEEFD81-7234-4F55-815B-71145B249B02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EEEFD81-7234-4F55-815B-71145B249B02}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0722D363-AD76-46C9-8A0A-7C61591A0E73} = {05C684B4-3B7F-4D3E-B390-0DCFFF1590BA}
+		{808A04EE-B8DD-48F3-AE13-1DB51724D452} = {05C684B4-3B7F-4D3E-B390-0DCFFF1590BA}
+		{ACA958A9-4CDD-48EE-AE3D-7EAEAD6AC81B} = {0722D363-AD76-46C9-8A0A-7C61591A0E73}
+		{70C7DE54-2ED5-48B4-A7F5-4A6BCD2E3FAD} = {0722D363-AD76-46C9-8A0A-7C61591A0E73}
+		{8BD467AB-44AC-4A17-BE86-A0B34F41750D} = {0722D363-AD76-46C9-8A0A-7C61591A0E73}
+		{F81067B1-BDE9-4219-9E6D-3FADD67F35C2} = {0722D363-AD76-46C9-8A0A-7C61591A0E73}
+		{C9AB3B1E-D7BC-430B-8A91-A3A445D39029} = {730F8C82-DB81-4222-8F79-085606470451}
+		{C28EC5C4-1933-4B96-8BE8-D8E7E2E0AA34} = {0722D363-AD76-46C9-8A0A-7C61591A0E73}
+		{1EEEFD81-7234-4F55-815B-71145B249B02} = {808A04EE-B8DD-48F3-AE13-1DB51724D452}
+		{730F8C82-DB81-4222-8F79-085606470451} = {743991C8-B27F-4A53-9623-08102FA4C34A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {796F328E-8D65-4BDF-81DE-4FBCEDEA852B}
+	EndGlobalSection
+EndGlobal
